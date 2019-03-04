@@ -1,0 +1,89 @@
+.container{
+  background: #eaeaea;
+  text-align: center;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    margin: auto;
+    width: 650px;
+    height: 440px
+  }
+  
+#story{
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  position:relative;
+}
+
+.carousel-caption{
+  bottom:0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height:30px;
+  left:75px;
+  width:650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:6px;
+}
+
+.carousel-control.right {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-control.left {
+  display: flex;
+  align-items: center;
+}
+
+.control{
+  margin: 0 auto;
+  display: block;
+  width:30px;
+  height:60px;
+}
+
+#thumbCarousel{
+  min-width: 100%;
+  min-height: 100px;
+  display: flex;
+  overflow-x:auto;
+}
+
+#thumbCarousel::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; 
+}
+
+#thumbCarousel .thumb{
+  border: 1px solid #ccc;
+  background: #fff;
+  min-width: 100px;
+  margin: 5px;
+}
+
+#thumbCarousel .thumb:last-child{
+  margin-right: 0;
+}
+
+.thumb:hover{
+  cursor: pointer;
+}
+
+.thumb img{
+  opacity: 0.5;
+  width: 80px; 
+  height: 100px
+}
+
+.thumb img:hover{
+  opacity: 1;
+}
+
+.thumb.active img{
+  opacity: 1;
+  border: 1px solid #1d62b7;
+}
