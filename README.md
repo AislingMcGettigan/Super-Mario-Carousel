@@ -1,2 +1,2 @@
 # Super-Mario-Carousel
-![](screenshot.png)
+![](screenshot.PNG)
