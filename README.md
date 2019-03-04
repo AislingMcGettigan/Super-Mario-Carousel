@@ -1,6 +1,6 @@
 # Super-Mario-Carousel
 
-<img src="Super-Mario-Carousel/Screenshot.PNG">
+<img src="Screenshot.PNG">
 
 
         
